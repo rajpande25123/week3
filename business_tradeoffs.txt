@@ -1,0 +1,18 @@
+Credit Card Fraud Detection - Business Decision Thresholds
+============================================================
+
+Threshold 0.3:
+- Precision: 0.266
+- Recall: 0.486
+- Strategy: High recall (catches ~most frauds), but blocks more innocent transactions (High False Positives).
+
+Threshold 0.5:
+- Precision: 0.551
+- Recall: 0.299
+- Strategy: Balanced approach. Standard threshold.
+
+Threshold 0.7:
+- Precision: 0.821
+- Recall: 0.160
+- Strategy: High precision (rarely blocks innocent people), but misses some frauds (High False Negatives).
+
